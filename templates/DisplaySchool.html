@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>DisplaySchool</h1>
+
+        <table border="3px">
+            <tr>
+                <th>SName</th>
+                <th>Sage</th>
+            </tr>
+
+
+            {% for sc in sclist %}
+
+                <tr>
+                    <td>{{sc.Sname}}</td>
+                    <td>{{sc.Sage}}</td>
+                
+                </tr>
+
+            {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </center>
+</body>
+</html>
